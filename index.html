@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Dott.ssa Eman Nasr - Odontoiatra specializzata in conservativa, implantologia, ortodonzia e chirurgia orale. Studio dentistico a disposizione per la salute del tuo sorriso.">
+    <meta name="keywords" content="dentista, odontoiatra, implantologia, ortodonzia, chirurgia orale, studio dentistico">
+    <meta name="author" content="Dott.ssa Eman Nasr">
+    <meta name="theme-color" content="#d6317a">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Sicurezza -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <!-- Performance -->
+    <link rel="preload" href="img/tooth-heart-logo.png" as="image">
+    <link rel="preload" href="img/eman_cut.jpg" as="image">
+    <link rel="dns-prefetch" href="https://www.emannasr.it">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dott.ssa Eman Nasr - Odontoiatra">
+    <meta property="og:description" content="Studio dentistico specializzato in conservativa, implantologia, ortodonzia e chirurgia orale. Prenota una visita per la salute del tuo sorriso.">
+    <meta property="og:image" content="img/tooth-heart-logo.png">
+    <meta property="og:url" content="https://www.emannasr.it">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dott.ssa Eman Nasr - Odontoiatra">
+    <meta name="twitter:description" content="Studio dentistico specializzato per la salute del tuo sorriso">
+    <meta name="twitter:image" content="img/tooth-heart-logo.png">
+    
+    <title>Dott.ssa Eman Nasr - Odontoiatra</title>
+    <link rel="icon" type="image/ico" href="img/tooth-heart-logo.ico">
+    <link rel="canonical" href="https://www.emannasr.it">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Schema.org markup per Studio Dentistico -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Dott.ssa Eman Nasr",
+      "image": "img/tooth-heart-logo.png",
+      "@id": "https://www.emannasr.it",
+      "url": "https://www.emannasr.it",
+      "telephone": "[Numero di Telefono]",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[Nome Via], [Numero]",
+        "addressLocality": "[Città]",
+        "postalCode": "[CAP]",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "[Latitudine]",
+        "longitude": "[Longitudine]"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo" onclick="scrollToTop(); return false;">
+                    <img src="img/tooth-heart-logo.png" alt="Logo Dott.ssa Eman Nasr" height="40">
+                    <span>Dott.ssa Eman Nasr</span>
+                </a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu di navigazione" aria-expanded="false" aria-controls="navLinks">
+                ☰
+            </button>
+                <ul class="nav-links" id="navLinks" role="navigation" aria-label="Menu principale">
+                    <li><a href="#bio" onclick="closeMenu()">Chi Sono</a></li>
+                    <li><a href="#experience" onclick="closeMenu()">Esperienza</a></li>
+                    <li><a href="#services" onclick="closeMenu()">Servizi</a></li>
+                    <li><a href="#careers" onclick="closeMenu()">Lavora con me</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Dott.ssa Eman Nasr</h1>
+                    <p class="hero-subtitle">Odontoiatra specializzata in conservativa, implantologia, ortodonzia e chirurgia orale</p>
+                    <a href="#contact" class="btn" onclick="scrollToSection('contact')">
+                        <i class="fas fa-calendar-plus"></i> Prenota una Visita
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/eman_cut.jpg" alt="Dott.ssa Eman Nasr" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="bio">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="bio">
+                <p>Benvenuti nel mio sito professionale. Sono la Dott.ssa Eman Nasr, dentista con specializzazione in [inserire specializzazione]. Mi sono laureata presso l'Università di [Nome Università] e ho conseguito un master in [campo di specializzazione].</p>
+                <p>La mia filosofia professionale si basa sulla convinzione che ogni paziente merita un'attenzione personalizzata e cure di altissima qualità. Mi impegno a utilizzare le tecniche più innovative e meno invasive possibili, garantendo al contempo risultati eccellenti e duraturi.</p>
+                <p>Durante la mia carriera, ho trattato migliaia di pazienti, affrontando casi semplici e complessi con lo stesso livello di dedizione e professionalità. La soddisfazione e il benessere dei miei pazienti sono sempre stati la mia priorità assoluta.</p>
+                <p>Continuo a mantenermi aggiornata sulle ultime novità nel campo dell'odontoiatria, partecipando regolarmente a conferenze e corsi di formazione, per garantire ai miei pazienti le migliori cure possibili.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience" style="background-color: #ffedf6;">
+        <div class="container">
+            <h2 class="section-title">Esperienza Professionale</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">06/2023 - Presente</div>
+                        <h3>Odontoiatra</h3>
+                        <p> Studio Odontoiatrico Aramini, Voghera</p>
+                        <ul class="experience-list">
+                            <li>Visite di controllo e emergenza</li>
+                            <li>Piani di cura personalizzati</li>
+                            <li>Restauri diretti in composito (classe I-V)</li>
+                            <li>Terapie canalari monoradicolari</li>
+                            <li>Ablazioni tartaro e curettaggio</li>
+                            <li>Avulsioni semplici e decidui</li>
+                            <li>Educazione all'igiene orale</li>
+                            <li>Acquisizione impronte dentali</li>
+                            <li>Sbiancamento professionale</li>
+                            <li>Trattamenti ortodontici invisibili</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-year">06/2023 - 01/2024</div>
+                        <h3>Odontoiatra</h3>
+                        <p>Smart Dental Clinic, Sesto San Giovanni</p>
+                        <ul class="experience-list">
+                            <li>Valutazioni cliniche e gestione emergenze</li>
+                            <li>Piani di cura personalizzati</li>
+                            <li>Prime visite e colloqui pazienti</li>
+                            <li>Radiografie endorali e ortopantomografie</li>
+                            <li>Restauri diretti in composito (classe I-V)</li>
+                            <li>Ablazioni tartaro e curettaggio</li>
+                            <li>Sigillature e fluoroprofilassi</li>
+                            <li>Pulpotomie e pulpectomie</li>
+                            <li>Restauri diretti su denti decidui</li>
+                            <li>Sensibilizzazione sulla prevenzione</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">02/2023 - 06/2023</div>
+                        <h3>Odontoiatra</h3>
+                        <p>CLD - Odontoiatria Specialistica, Gropello Cairoli e Vermezzo</p>
+                        <ul class="experience-list">
+                            <li>Visite di controllo</li>
+                            <li>Restauri diretti (classe I, II, V)</li>
+                            <li>Terapie endodontiche monoradicolari</li>
+                            <li>Avulsioni semplici</li>
+                            <li>Promozione salute orale</li>
+                            <li>Assistenza ricostruzioni e implantologia</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-year">10/2022 - 02/2023</div>
+                        <h3>Odontoiatra Volontaria</h3>
+                        <p>Ambulatorio dentistico "Nessuno escluso" Caritas, Alessandria</p>
+                        <ul class="experience-list">
+                            <li>Visite cliniche e di emergenza</li>
+                            <li>Restauri diretti (classe I-V)</li>
+                            <li>Terapie endodontiche</li>
+                            <li>Avulsioni semplici</li>
+                            <li>Ablazioni tartaro e curettaggio</li>
+                            <li>Sigillature e fluoroprofilassi</li>
+                            <li>Pulpotomie e pulpectomie</li>
+                            <li>Avulsioni e restauri decidui</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-year">06/2022 - 01/2023</div>
+                        <h3>Tirocinante</h3>
+                        <p>RSI Leandro Lisino Caritas, Tortona</p>
+                        <ul class="experience-list">
+                            <li>Assistenza terapie canalari complesse</li>
+                            <li>Ricostruzioni composito complesse</li>
+                            <li>Avulsioni ottavi inclusi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Servizi Offerti</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/conservativa.jpg" alt="Conservativa - Trattamenti dentali">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Odontoiatria Conservativa</h3>
+                        <p>Trattamenti per la riparazione di denti danneggiati da carie, fratture o usura, preservando il più possibile la struttura dentale naturale.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/implantologia.jpg" alt="Implantologia - Sostituzione di denti mancanti">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Implantologia</h3>
+                        <p>Sostituzione di denti mancanti con impianti dentali di alta qualità, per ripristinare la funzionalità e l'estetica del sorriso.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/endodonzia.jpg" alt="Endodonzia - Trattamento canalare">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Ortodonzia</h3>
+                        <p>Correzione di problemi di allineamento dentale e malocclusione, utilizzando tecniche tradizionali e innovative come allineatori trasparenti.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/api/placeholder/400/200" alt="Estetica Dentale">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Estetica Dentale</h3>
+                        <p>Sbiancamento dentale, faccette, ricostruzioni estetiche e altri trattamenti per migliorare l'aspetto del vostro sorriso.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/chirurgia.jpg" alt="Chirurgia Orale - Interventi chirurgici">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Chirurgia Orale</h3>
+                        <p>Estrazioni dentali, incluse quelle complesse come i denti del giudizio, e altri interventi chirurgici orali.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/prevenzione.jpg" alt="Prevenzione dentale">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Prevenzione</h3>
+                        <p>Controlli periodici, pulizia professionale, sigillatura e altri trattamenti preventivi per mantenere una buona salute orale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="careers" class="careers">
+        <div class="container">
+            <h2>Collabora con me</h2>
+            <div class="careers-content">
+                <div class="careers-text">
+                    <h3>Cerchi una collaborazione professionale?</h3>
+                    <p class="careers-description">Offro consulenze specialistiche e collaborazioni professionali per:</p>
+                    <ul class="careers-features">
+                        <li>
+                            <i class="fas fa-hospital"></i>
+                            <span><strong>Studi Dentistici</strong> - Trattamenti specialistici in conservativa, implantologia e ortodonzia</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-md"></i>
+                            <span><strong>Colleghi Odontoiatri</strong> - Consulenze su casi complessi e collaborazioni professionali</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-briefcase-medical"></i>
+                            <span><strong>Aziende del Settore</strong> - Formazione, testing prodotti e consulenza tecnica</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="careers-cta">
+                    <p class="cta-intro">Ti interessa una collaborazione?</p>
+                    <div class="cta-downloads">
+                        <a href="docs/EmanNasr_20250402.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-file-alt"></i> Curriculum Vitae
+                        </a>
+                        <a href="docs/Portfolio_EmanNasr_2025.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-images"></i> Portfolio Casi
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" style="background-color: #ffedf6;">
+        <div class="container">
+            <h2 class="section-title">Contatti</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Per prenotare una visita o richiedere informazioni, non esitate a contattarmi:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-title">Indirizzo</div>
+                    <p>Via [Nome Via], [Numero]</p>
+                    <p>[CAP] [Città], [Provincia]</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-title">Telefono</div>
+                    <p>Tel: [Numero di Telefono]</p>
+                    <p>Cell: [Numero di Cellulare]</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-title">Email</div>
+                    <p>[indirizzo email]</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🕒</div>
+                    <div class="contact-title">Orari</div>
+                    <p>Lunedì - Venerdì: 9:00 - 19:00</p>
+                    <p>Sabato: 9:00 - 13:00</p>
+                    <p>Domenica: Chiuso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Dott.ssa Eman Nasr. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openAppointmentForm() {
+            const form = document.querySelector('.appointment-form');
+            form.style.display = 'block';
+        }
+
+        function closeAppointmentForm() {
+            const form = document.querySelector('.appointment-form');
+            form.style.display = 'none';
+        }
+
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Qui puoi aggiungere la logica per inviare il form
+            alert('Grazie per la prenotazione! Ti contatteremo a breve per confermare l\'appuntamento.');
+            closeAppointmentForm();
+        });
+
+        // Chiudi il form cliccando fuori
+        document.querySelector('.form-overlay').addEventListener('click', function() {
+            closeAppointmentForm();
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

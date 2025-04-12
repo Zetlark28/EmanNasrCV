@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>404 - Pagina non trovata</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .error-code {
+            font-size: 8em;
+            color: #d6317a;
+            margin: 0;
+        }
+        
+        .error-message {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #333;
+        }
+        
+        .error-subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .error-actions a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 2px solid #d6317a;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .error-actions a:hover {
+            background-color: #d6317a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-message">Pagina non trovata</h2>
+        <p class="error-subtitle">La pagina che stai cercando non esiste o è stata spostata.</p>
+        <div class="error-actions">
+            <a href="/" onclick="window.location.href='/'">Torna alla Home</a>
+            <a href="/contact" onclick="window.location.href='/contact'">Contattaci</a>
+        </div>
+    </div>
+</body>
+</html>
