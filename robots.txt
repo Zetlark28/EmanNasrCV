@@ -5,9 +5,6 @@ Allow: /
 Sitemap: https://www.emannasr.it/sitemap.xml
 
 # Disallow specific paths
-Disallow: /js/
-Disallow: /css/
-Disallow: /img/
 
 # Allow important paths
 Allow: /docs/  # Per il CV e il Portfolio
