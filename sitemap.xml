@@ -35,17 +35,4 @@
         <priority>0.8</priority>
     </url>
     
-    <url>
-        <loc>https://www.emannasr.it/docs/EmanNasr_CV.pdf</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.emannasr.it/docs/Portfolio_EmanNasr_2025.pdf</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
 </urlset>
