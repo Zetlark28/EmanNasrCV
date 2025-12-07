@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Home page -->
     <url>
         <loc>https://www.emannasr.it/</loc>
         <lastmod>2025-04-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-    
+
+    <!-- Sezioni principali (SEO friendly, anche se sono anchor) -->
     <url>
-        <loc>https://www.emannasr.it/#experience</loc>
+        <loc>https://www.emannasr.it/experience</loc>
         <lastmod>2025-04-15</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
-    
+
     <url>
-        <loc>https://www.emannasr.it/#services</loc>
+        <loc>https://www.emannasr.it/services</loc>
         <lastmod>2025-04-15</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
-    
+
     <url>
-        <loc>https://www.emannasr.it/#careers</loc>
+        <loc>https://www.emannasr.it/careers</loc>
         <lastmod>2025-04-15</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
-    
+
     <url>
-        <loc>https://www.emannasr.it/#contact</loc>
+        <loc>https://www.emannasr.it/contact</loc>
         <lastmod>2025-04-15</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
-    
+
 </urlset>
