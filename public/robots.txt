@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+
+# --- SITEMAP ---
+Sitemap: https://www.emannasr.it/sitemap.xml
+
+# --- ACCESSO AI CRAWLER DELLE AI ---
+# Google-Extended è necessario per consentire l'uso dei contenuti nei modelli Google AI
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI GPTBot – per consentire indexing nei modelli futuri di ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# OpenAI Data Collector (nuovo)
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity AI Crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic – Claude
+User-agent: ClaudeBot
+Allow: /
+
+# AppleBot (spesso interrogato da sistemi Siri / Apple AI)
+User-agent: AppleBot
+Allow: /
+
+# Bing Chat / Microsoft AI
+User-agent: bingbot
+Allow: /
+
+# --- RISORSE IMPORTANTI CONSENTITE ---
+Allow: /api/        # Placeholder o immagini generate dinamicamente
+Allow: /img/        # Logo, foto profilo, ecc.
+Allow: /css/
+Allow: /js/
+
+# --- BLOCCA SOLO CIÒ CHE NON DEVE ESSERE INDICIZZATO (opzionale) ---
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /tmp/

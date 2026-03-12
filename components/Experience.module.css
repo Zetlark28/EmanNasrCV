@@ -1,0 +1,157 @@
+.section {
+  background-color: var(--primary-light);
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: var(--primary);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: var(--white);
+  border: 4px solid var(--primary);
+  top: 18px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.left::after {
+  right: -12px;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -12px;
+}
+
+.card {
+  background: var(--white);
+  padding: 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-primary);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.period {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 4px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.place {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: var(--text-medium);
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.place i {
+  color: var(--primary);
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.desc {
+  color: var(--text-medium);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 20px;
+    left: 0 !important;
+  }
+
+  .item::after {
+    left: 19px !important;
+    right: auto;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+
+/* ─── Toggle button ─── */
+.toggleWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.toggleBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 10px 28px;
+  border-radius: 99px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+
+.toggleBtn:hover {
+  background: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+}

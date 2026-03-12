@@ -1,0 +1,20 @@
+##GITIGNORE
+
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# Lock file (keep package-lock.json for reproducible installs)
+# /package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db

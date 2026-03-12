@@ -1,0 +1,22 @@
+.bioCard {
+  background-color: var(--white);
+  padding: 40px 48px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 1.05rem;
+  color: var(--text-medium);
+  line-height: 1.85;
+  border-left: 4px solid var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+  .bioCard {
+    padding: 24px 20px;
+    font-size: 0.98rem;
+    border-left: none;
+    border-top: 4px solid var(--primary);
+  }
+}

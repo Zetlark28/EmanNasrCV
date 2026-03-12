@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--white);
+  padding: 40px 0;
+  border-top: 1px solid #eee;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: var(--text-light);
+}
+
+.vat {
+  color: var(--text-medium);
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
